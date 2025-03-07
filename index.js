@@ -3,7 +3,7 @@ import _ from 'lodash';
 const numeros = [1, 2, 3, 4, 5];
 _.reverse(numeros);
 console.log(numeros);
- 
+
 //ejerccio 2:Elimina Valores Falsy
 const valore= [0, "hola", false, 42, " ", null, "mundo", undefined, NaN, true];
 const filtrados = _.compact(valore)
